@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    accent-color: #ff0053;
+    box-sizing: border-box;
+    font-family: "system-ui";
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #eee;
+    justify-content: center;
+}
+
+#root { 
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    gap: 2rem;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    padding: 2rem;
+    overflow: hidden;
+    max-width: 400px;
+    position: relative;
+    border-radius: 1rem;
+    align-items: center;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+#app audio {
+    display: none;
+}
+
+#app header {
+    gap: .5rem;
+    display: grid;
+}
+
+#app h1 {
+    color: #000;
+    font-size: 1.4em;
+    text-align: center;
+}
+#app h4 {
+    color: #999;
+    text-align: center;
+}
+
+
+#app .cover {
+    width: 300px;
+    height: 250px;
+    border-radius: 1rem;
+    background: #7f00d4;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/images/cover.jpg);
+}
+
+#app .controls { 
+    gap: 1.5rem;
+    width: 100%; 
+    display: grid;
+}
+
+#app .counter {
+    width: 100%;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#app .counter input {
+    height: 3px;
+    width: 100%;
+}
+
+#app .counter p { color: #667; }
+
+
+
+#app .button-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#app .button-area section:nth-child(1) { 
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#app .button-area section:nth-child(1) button:nth-child(2) {
+    width: 50px;
+    height: 50px;
+} 
+
+#app .button-area button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    display: flex;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ff034a;
+}
+
+#app .button-area button img {
+    width: 20px;
+    height: 20px;
+}
+
+#app .button-area section:nth-child(1) button:nth-child(2) img {
+    width: 30px;
+    height: 30px;
+}
+
+
+#app .playlist {
+    top: 0;
+    left: 0;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+    position: absolute;
+    background: #fff;
+    flex-direction: column;
+}
+
+#app .playlist .header {
+    gap: 1rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    background: #fff;
+    border-bottom: 2px solid #eee;
+}
+
+#app .playlist .header button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+#app .playlist .header button img {
+    width: 25px;
+    height: 25px;
+}
+
+#app .playlist .header h3 { color: #000; } 
+
+#app .playlist .list {
+    gap: .4rem;
+    height: 100%;
+    display: grid;
+    overflow-y: scroll;
+    align-content: start;
+}
+
+#app .playlist .list::-webkit-scrollbar { width: 5px; }
+#app .playlist .list::-webkit-scrollbar-thumb { background: #ff0053; border-radius: 5rem; }
+#app .playlist .list::-webkit-scrollbar-track { background: #ddd; border-radius: 5rem; }
+
+#app .playlist .list li {
+    gap: 0.5rem;
+    color: #fff;
+    display: flex;
+    padding: 1rem;
+    text-wrap: nowrap;
+    align-items: center;
+    border-radius: .5rem;
+    margin-right: .4rem;
+    background: #fff;
+    box-shadow: 2px 2px 5px #ddd;
+}
+
+#app .playlist .list li img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#app .playlist .list li p {
+    color: #667;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

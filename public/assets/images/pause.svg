@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="64px" height="52px" viewBox="0 0 64 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAXJJREFUeJzt0rENwkAQRcEzDRBQlUN6cRn0QkhVBFRgF3FCtvRm8q/d4C3j4u7P1z6z/723ZWb/HevU/cf4TN3/t9vZD3AuAcQJIE4AcQKIE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIOhuIIADOl8n0AAAAASUVORK5CYII=" id="img_1" />
+    <pattern patternUnits="objectBoundingBox" y="-50%" height="150%" width="100%" id="pattern_1">
+      <use xlink:href="#img_1" transform="matrix(0.5 0 0 0.5 0 0)" />
+    </pattern>
+  </defs>
+  <path d="M0 0L64 0L64 32L0 32L0 0Z" id="Pause-2" fill="url(#pattern_1)" fill-rule="evenodd" stroke="none" />
+</svg>
